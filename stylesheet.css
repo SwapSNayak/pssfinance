@@ -9,6 +9,7 @@ body{
 .product_icons{
 	margin-left: 40%;
 	margin-bottom: 5%;
+  color:#dcc058;
 }
 .carousel-inner img {
     width: 100%;
@@ -47,7 +48,7 @@ body{
 	padding:5% 1%;
 	font-weight: bold;
 	font-size:1.8em;
-color:  #f79100;
+  color:  #f79100;
 	text-transform:uppercase;
 	text-align: center;
 
@@ -66,7 +67,7 @@ color:  #f79100;
     position: relative;
 }
 .title{
-	color:#fdd437;
+	color:#dcc058;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -75,7 +76,7 @@ color:  #f79100;
 	color: #999999;
 }
 .service_img{
-	border: 2px dotted #fdd947;
+	border: 2px dotted #dcc058;
 	padding: 10px;
 }
 .service_imgDiv{
@@ -100,7 +101,7 @@ color:  #f79100;
 .dot-container {
     text-align: center;
     padding:0px 20px;
-    background: #f79101;
+    background: #dcc058;
 }
 
 /* The dots/bullets/indicators */
@@ -154,7 +155,7 @@ q {font-style: italic;}
 }
 .fa {
   padding: 5px;
-  font-size: 10px;
+  /*font-size: 10px;*/
   width: 30px;
   height:30px;
   border-radius:50%;
@@ -340,6 +341,34 @@ p.add1 {
 	
     color: #666;
     line-height: 30px;
+	text-align: justify;
+}
+
+ul.Applicability span.highlight {
+    background: #fdd947;
+    padding: 2px 5px;
+    color: #222;
+}
+ul.Applicability li {
+	list-style-type: none;
+	line-height: 26px;
+}
+ul.ullineheight li{
+	line-height: 26px;
+}
+ .linktextcommon {
+    color: #ed3338;
+    border-bottom: dashed 1px #ed3338;
+    font-weight: 500;
+}
+.linktextcommon:hover{
+	text-decoration: none;
+	color:#666;
+	color:#666;
+}
+.kycsubheading{
+	color: #fdd947;
+	padding: 10px 0px;
 }
 @media (min-width: 700px){
 .boxMgmt {
@@ -495,12 +524,43 @@ h4.headingSignup {
 .transaction_a:hover{
 	text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
-  .loginImg {
-    display: none;
-  }
-	.loginButton{
-	margin:auto;
-	padding-top: 5%;
+
+.selectbox{
+	width: 400px;
+	padding: 5px;
+	border:1px solid #fdd947;
+	border-radius: 5px;
+	background-color: #FAF6F6;
+	
 }
+
+@media only screen and (max-width: 600px) {
+    .loginImg {
+      display: none;
+    }
+    .loginButton{
+    margin:auto;
+    padding-top: 5%;
+    }
+  .dropdown-item {
+    margin-left: 15%;
+  }
+  /* padding: 0 !important; // override inline padding-right added from js */
+  
+  .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  
+  .modal-body {
+    overflow-y: auto;
+  }
 }

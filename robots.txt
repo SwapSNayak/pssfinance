@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Disallow: document
+Sitemap: https://pssfinancial.com/sitemap.xml
